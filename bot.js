@@ -13,7 +13,7 @@ const chalk = require('chalk');
 const config = require('./config');
 const simpleGit = require('simple-git');
 const {WAConnection, MessageOptions, MessageType, Mimetype, Presence} = require('@adiwajshing/baileys');
-const {Message, StringSession, Image, Video} = require('./julie/');
+const {Message, StringSession, Image, Video} = require('./𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟/');
 const { DataTypes } = require('sequelize');
 const { getMessage } = require("./plugins/sql/greetings");
 const git = simpleGit();
@@ -140,7 +140,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
         });
 
         console.log(
-            chalk.green.bold('✅ Julie Mwol working!')
+            chalk.green.bold('✅ 𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟  working!')
         );
         await conn.sendMessage(
             conn.user.jid,
@@ -153,15 +153,15 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
             if (commits.total === 0) {
                 await conn.sendMessage(conn.user.jid,Lang.UPDATE, MessageType.text);    
             } else {
-                var julieupdate = Lang.NEW_UPDATE;
+                var 𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟update = Lang.NEW_UPDATE;
                 commits['all'].map(
                     (commit) => {
-                        julieupdate += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
+                        𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟update += '🔸 [' + commit.date.substring(0, 10) + ']: ' + commit.message + ' <' + commit.author_name + '>\n';
                     }
                 );
                 await conn.sendMessage(
                     conn.user.jid,
-                    '```type``` *.update now* ```to update```\n\n' + julieupdate + '```', MessageType.text
+                    '```type``` *.update now* ```to update```\n\n' + 𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟update + '```', MessageType.text
                 ); 
             } 
       }
@@ -200,7 +200,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                 var pinkjson = await conn.groupMetadata(msg.key.remoteJid)
                    await conn.sendMessage(msg.key.remoteJid,gb.message.replace('{gphead}', pinkjson.subject).replace('{gpmaker}', pinkjson.owner).replace('{gpdesc}', pinkjson.desc).replace('{time}', afn_plk_).replace('{owner}', conn.user.name), MessageType.text);
             }
-          }  //thanks to farhan      
+          }  //thanks to ℭ𝔬𝔪𝔯𝔞𝔡𝔢 × 𝔇𝔲𝔡𝔢      
             return;
         } else if (msg.messageStubType === 27 || msg.messageStubType === 31) {
         var plk_say = new Date().toLocaleString('HI', { timeZone: 'Asia/Kolkata' }).split(' ')[1]
@@ -324,7 +324,7 @@ ${chalk.blue.italic('ℹ️ Connecting to WhatsApp...')}`);
                                     'Gerçekleşen Hata: ' + error + '\n\n'
                                     , MessageType.text);
                             } else {
-                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝕁𝕦𝕝𝕚𝕖𝕄𝕨𝕠𝕝 ~______~*' +
+                                await conn.sendMessage(conn.user.jid, '*~_________~ 𝗧𝗗𝗖 × 𝗗𝗘𝗩𝗜𝗟 ~______~*' +
                                     '\n\n*🧞‍♂️ ' + error + '*\n\n*Support group*\nchat.whatsapp.com/EWLP9VPgYmgGff6NORWSKk ' 
                                     , MessageType.text);
                             }
