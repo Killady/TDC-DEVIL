@@ -32,7 +32,7 @@ Project created by <a href="https://github.com/Comrade×Dude">Comrade×Dude</a> 
 GET QR
 $ apt install git
 $ apt install nodejs --fix-missing
-$ git clone https://github.com/Killady/TDC-DEVIL/blob/master/README.md
+$ git clone https://github.com/Killady/TDC-DEVIL
 $ cd TDC-DEVIL
 $ npm install @adiwajshing/baileys
 $ npm install chalk
@@ -41,7 +41,7 @@ $ node TDC-DEVIL.js
       
 ```js
 SETUP
-$ git clone https://github.com/Killady/TDC-DEVIL/blob/master/README.md
+$ git clone https://github.com/Killady/TDC-DEVIL
 $ cd TDC-DEVIL
 $ npm i
 $ node TDC-DEVIL.js
