@@ -1,6 +1,6 @@
 
 <div align="center">
-  <img border-radius: 15px src="https://avatars.githubusercontent.com/u/83164448?v=4" width="200" height="200"/>
+  <img border-radius: 15px src="20211201_141834.jpg" width="200" height="200"/>
   <p align="center">
 <a href="#"><img title="TDC-DEVIL" src="https://img.shields.io/badge/TDC-DEVIL-green?colorA=%23ff0000&colorB=%23017e40&style=for-the-badge"></a>
 </p>
