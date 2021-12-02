@@ -25,7 +25,7 @@ Project created by <a href="https://github.com/Comrade×Dude">Comrade×Dude</a> 
   
 [![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/Comrade×Dude/TDC-DEVIL) 
   
-[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@Farhandqz/TDC-DEVIL)
+[![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/killady/TDC-DEVIL)
   
 ### The Hard Method
 ```js
